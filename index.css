@@ -13,6 +13,10 @@
   --c10: #D2691E;
 }
 
+using {
+  visibility: hidden;
+}
+
 input[type="button"],
 input[type="submit"],
 button {
