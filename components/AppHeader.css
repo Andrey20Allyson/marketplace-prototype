@@ -1,0 +1,43 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5rem;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  padding: .75rem 2rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #0003;
+  transition: box-shadow 400ms;
+
+  .scrolled & {
+    box-shadow: 0 .5rem .9rem #0004;
+  }
+
+  &>section {
+    display: flex;
+    gap: .5rem;
+    flex: 1;
+    align-items: center;
+
+    &>h1 {
+      margin: 0;
+      font-family: 'Montserrat';
+      color: var(--c3);
+      font-style: italic;
+    }
+
+    &>.logo-container {
+      background-color: #fff;
+      padding: .2rem .4rem;
+      border-radius: .4rem;
+
+      &>.logo {
+        object-fit: contain;
+        height: 2.5rem;
+      }
+    }
+  }
+}

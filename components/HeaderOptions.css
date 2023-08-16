@@ -1,0 +1,15 @@
+.header-options {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+
+  &>.check-out {
+    width: 1.5rem;
+    cursor: pointer;
+    transition: opacity 300ms;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

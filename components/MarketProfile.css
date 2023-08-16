@@ -1,0 +1,71 @@
+.market-profile {
+  
+  &>.banner {
+    width: 100%;
+    height: 12vw;
+    min-height: 8rem;
+    object-fit: cover;
+  }
+
+  & h1,
+  & p {
+    margin: 0;
+  }
+
+  &>.info {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 5rem;
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: #f0f0f0;
+
+    &>.top-info {
+      display: flex;
+      gap: 2.5rem;
+    
+      &::before {
+        content: "";
+        width: 8rem;
+        height: 8rem;
+      }
+
+      &>.profile-photo {
+        width: 8rem;
+        height: 8rem;
+        transform: translate(0, -30%);
+        background-color: #fff;
+        border: 5px solid #fff;
+        border-radius: 1rem;
+        position: absolute;
+        object-fit: contain;
+      }
+
+      &>.midle {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        
+        &>.top {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          &>.is-open-display {
+            background-color: rgba(1, 136, 1, 0.733);
+            color: #fff;
+            padding: .2rem .5rem;
+            border-radius: .4rem;
+          }
+        }
+      }
+    }
+
+    &>.lower-info {
+      &>p {
+        text-align: justify;
+      }
+    }
+  }
+}
