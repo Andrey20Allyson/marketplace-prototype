@@ -1,0 +1,11 @@
+.category-searcher {
+  border: 1px solid #0003;
+  padding: 1rem;
+  background-color: #e4e4e4;
+  border-radius: .6rem;
+  box-shadow: -.2rem .2rem .4rem #0002;
+
+  &>.title {
+    margin: 0;
+  }
+}

@@ -5,6 +5,8 @@
 
   &>.left-container {
     width: 20rem;
+    padding-right: 2rem;
+    border-right: 1px solid #0003;
   }
 
   &>.right-container {

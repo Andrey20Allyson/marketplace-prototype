@@ -34,8 +34,13 @@
       white-space: nowrap;
     }
 
+    &>.desc {
+      font-size: .75rem;
+      line-height: 1rem; 
+    }
+
     &>.price {
-      color: rgb(0, 126, 0);
+      color: rgb(27, 65, 27);
       font-weight: bolder;
       font-style: italic;
       font-size: 1.2rem;

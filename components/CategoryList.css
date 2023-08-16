@@ -1,5 +1,16 @@
 .category-list {
   
+  &>.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &>.toggle-visibility {
+      width: 1.4rem;
+      cursor: pointer;
+    }
+  }
+
   &>.product-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));

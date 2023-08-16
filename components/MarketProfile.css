@@ -54,7 +54,8 @@
           gap: 1rem;
 
           &>.is-open-display {
-            background-color: rgba(1, 136, 1, 0.733);
+            background: linear-gradient(10deg, #018801bb, #63c763bb);
+            background-color: #018801bb;
             color: #fff;
             padding: .2rem .5rem;
             border-radius: .4rem;
