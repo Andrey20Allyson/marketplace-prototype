@@ -1,6 +1,6 @@
 import { PropReciver } from "./PropReciver.js";
 
-export const PROP_REGEXP = /{{([^ ]+)}}/sg;
+export const PROP_REGEXP = /{{([^ {]+)}}/sg;
 
 /**
  * 

@@ -7,11 +7,16 @@
   <title>Document</title>
   <script type="module" src="/components/js/index.js"></script>
   <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="../index.css">
   <script src="/index.js"></script>
   <using>
     <component>AppHeader</component>
     <component>MarketProfile</component>
     <component>HeaderOptions</component>
+    <component>SearchInMarket</component>
+    <component>CategoryList</component>
+    <component>ProductCard</component>
+    <component>CategorySearcher</component>
   </using>
 </head>
 
@@ -20,9 +25,60 @@
     <HeaderOptions />
   </AppHeader>
   <main>
-    <MarketProfile
+    <MarketProfile name="Motorola"
       banner-src="https://media.medion.com/cms/medion/shop/56387_Motorola_Banner_Moto-g8_power_6Stk_1920x250.jpg"
-      photo-src="https://th.bing.com/th/id/OIP.-UzIJKY1Va3dGEinHM8b3AHaGl?pid=ImgDet&rs=1" />
+      photo-src="https://th.bing.com/th/id/OIP.-UzIJKY1Va3dGEinHM8b3AHaGl?pid=ImgDet&rs=1">
+    </MarketProfile>
+    <SearchInMarket></SearchInMarket>
+    <section class="category-explorer">
+      <div class="left-container">
+        <CategorySearcher></CategorySearcher>
+      </div>
+      <div class="right-container">
+        <CategoryList title="Lorem Categoria">
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+        </CategoryList>
+        <CategoryList title="Lorem Categoria">
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+          <ProductCard name="Lorem Produto"
+            image-src="https://a-static.mlcdn.com.br/800x560/smartphone-motorola-moto-e-13-64gb-octa-core-4gb-ram-dual-chip/lojaoriodopeixe/2858/77898b5731865fb4ff523ffdf704eb21.jpeg"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni inventore itaque. Atque placeat perferendis, voluptates ad facere numquam corrupti, odio sunt exercitationem ipsum omnis eaque officia at impedit voluptas?"
+            price-int="50">
+          </ProductCard>
+        </CategoryList>
+      </div>
+    </section>
+    <footer>
+
+    </footer>
   </main>
 </body>
 

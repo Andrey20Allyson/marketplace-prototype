@@ -1,0 +1,13 @@
+.category-explorer {
+  display: flex;
+  padding: 2rem 4rem;
+  gap: 1rem;
+
+  &>.left-container {
+    width: 20rem;
+  }
+
+  &>.right-container {
+    flex: 1;
+  }
+}

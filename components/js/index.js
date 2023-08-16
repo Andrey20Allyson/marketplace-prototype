@@ -8,6 +8,8 @@ export const RenderEvents = {
 export const componentLoader = new ComponentLoader();
 
 function render() {
+  const searchInMarketComponent = componentLoader.mapped.get('SearchInMarket')
+
   for (const componentName of componentLoader.mapped.keys()) {
     const component = componentLoader.mapped.get(componentName);
     if (!component) continue;

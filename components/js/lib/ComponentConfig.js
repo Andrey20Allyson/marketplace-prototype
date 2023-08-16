@@ -50,7 +50,6 @@ export class ComponentConfig {
   compile() {
     while (true) {
       const [, comment] = ComponentConfig.COMMENT_REGEXP.exec(this._component.html) ?? [];
-      console.log(comment);
       if (!comment) break;
 
       while (true) {
